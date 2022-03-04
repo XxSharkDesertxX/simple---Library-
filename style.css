@@ -1,0 +1,116 @@
+*{
+    transition: all .7s;
+}
+body{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    background-color: rgb(224, 224, 224);
+    padding: 1rem;
+}
+.header_main{
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title_header{
+    margin: 0 0 .5rem 0;
+    font-size: 1.8rem;
+    letter-spacing: .4rem;
+    font-weight: 500;
+}
+.header_body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header_body_title{
+    margin-left: 1rem;
+    font-weight: normal;
+}   
+.header_body_search{
+    border: none; outline: none;
+    padding: .3rem;
+    min-height: 1rem;
+    max-height: 2rem;
+    border-radius: .3rem;
+    min-width: 14rem;
+}
+
+
+/* main section */
+.main{
+    padding: 1rem;
+}
+.main_titles{
+    display: block;
+}
+.main_body{
+    background-color: rgb(67, 67, 247);
+    padding: 1rem;
+    border-radius: .4rem;
+    transition: all .6s ;
+}
+.book_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 1rem 0;
+    height: 3rem;
+    padding-left: 1rem;
+    border-left: 3px solid #fff;
+    transition: all .3s;
+}
+.book_item:hover{
+    border-left: 3px solid orange;
+    letter-spacing: .2rem;
+    color: orange;
+}
+.name_book{
+    list-style: none;
+}
+.delete{
+    background-color: rgb(248, 179, 51);
+    color: #000;
+    padding: .3rem;
+    border-radius: .3rem;
+    cursor: pointer;
+
+}   
+
+/* footer section */
+.main_footer{
+    padding: .5rem 1rem;
+}
+.hidden_book{
+    display: flex;
+    align-items: center;
+}
+.checkboxs{
+    margin-left: .7rem;
+}
+.add{
+    text-align: center;
+    margin-top: .8rem;
+}
+.add input{
+    border: none; outline: none;
+    padding: .3rem;
+    min-height: 1rem;
+    max-height: 2rem;
+    border-radius: .3rem;
+    min-width: 14rem;
+    border: 2px solid rgb(67, 67, 247) ;
+}
+.add button{
+    border: none;
+    outline: none;
+    padding: .5rem ;
+    background-color: rgb(67, 67, 247);
+    border-radius: .3rem;
+    color: #fff;
+}
